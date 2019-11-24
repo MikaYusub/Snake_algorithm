@@ -15,9 +15,9 @@ public class YourSolver implements Solver<Board> {
 
   public static void main(String[] args) {
     WebSocketRunner.runClient(
-        "http://104.248.23.201/codenjoy-contest/board/player/0f6k6m3aq5l1bpo9ymmu?code=7093059984507167700",
-        new YourSolver(),
-        new Board()
+            "http://104.248.23.201/codenjoy-contest/board/player/0f6k6m3aq5l1bpo9ymmu?code=7093059984507167700",
+            new YourSolver(),
+            new Board()
     );
   }
 }
